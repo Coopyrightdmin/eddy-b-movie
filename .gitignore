@@ -6,3 +6,4 @@ config.js
 lib
 yarn.lock
 ngrok.exe
+azure/**

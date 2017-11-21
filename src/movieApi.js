@@ -4,7 +4,7 @@ const config = require('./config');
 
 function discoverMovie(genreId) {
   return moviedbApiCall(genreId).then(response =>
-    apiResultToCarousselle(response.data.results)
+    apiResultToCaroussel(response.data.results)
   );
 }
 
@@ -19,7 +19,7 @@ function moviedbApiCall(genreId) {
   });
 }
 
-function apiResultToCarousselle(results) {
+function apiResultToCaroussel(results) {
   if (results.length === 0) {
     return [
       {
@@ -50,7 +50,7 @@ function apiResultToCarousselle(results) {
       type: 'text',
       content: "Here's what I found for you!",
     },
-    { type: 'carouselle', content: cards },
+    { type: 'carousel', content: cards },
   ];
 }
 

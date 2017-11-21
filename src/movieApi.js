@@ -50,7 +50,7 @@ function apiResultToCaroussel(results) {
       type: 'text',
       content: "Here's what I found for you!",
     },
-    { type: 'carousel', content: cards },
+    { type: 'carouselle', content: cards },
   ];
 }
 

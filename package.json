@@ -1,5 +1,5 @@
 {
-  "name": "Recast-ai-starter-kit",
+  "name": "eddie-b-movie",
   "version": "1.0.0",
   "description": "A bot built with Recast.AI",
   "main": "server.js",
@@ -7,11 +7,11 @@
     "start": "node src/server.js",
     "lint": "eslint src/"
   },
-  "author": "Recast",
-  "license": "ISC",
+  "author": "Coopyrightdmin",
+  "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git@github.com:RecastAI/starter-NodeJS.git"
+    "url": "git@github.com:Coopyrightdmin/eddy-b-movie.git"
   },
   "dependencies": {
     "axios": "^0.16.1",

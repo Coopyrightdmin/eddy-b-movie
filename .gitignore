@@ -7,3 +7,4 @@ lib
 yarn.lock
 ngrok.exe
 azure/**
+docker-compose.yml
